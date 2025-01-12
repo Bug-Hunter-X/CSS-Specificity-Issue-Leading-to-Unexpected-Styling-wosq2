@@ -1,0 +1,17 @@
+/* bugSolution.css */
+#myElement {
+  color: blue;
+}
+
+.myClass #myElement {
+  color: red; /* This will now override the less specific selector */
+}
+
+/* Alternatively, use !important but only when absolutely necessary */
+#myElement {
+  color: blue !important; 
+}
+
+.myClass #myElement {
+  color: red;
+}
